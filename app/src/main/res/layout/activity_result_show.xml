@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResultShowActivity"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/scroll_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9">
+
+            <TableLayout
+                android:id="@+id/result_show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></TableLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight = "0.1"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:text="戻る"
+                android:background="@xml/button_bg_rounded_corners"
+                style="@style/button_large"
+                android:onClick="cancel"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:text="完了"
+                android:background="@xml/button_bg_rounded_corners"
+                style="@style/button_large"
+                android:onClick="submit"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

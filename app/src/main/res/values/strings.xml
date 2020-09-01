@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">医療検査</string>
+    <string name="PostiveYesButton">はい</string>
+    <string name="NegativeNoButton">いいえ</string>
+    <string name="title_home">ホーム</string>
+    <string name="title_search">検索</string>
+
+    <string name="OK">OK</string>
+    <string name="Cancel">キャンセル</string>
+    <string name="YES">はい</string>
+    <string name="NO">いいえ</string>
+    <string name="Delete">削除</string>
+    <string name="Save">保存</string>
+    <string name="Back">戻り</string>
+    <string name="Edit">編集</string>
+    <string name="Send">送信</string>
+    <string name="Connect">接続</string>
+
+    <string name="input_err_title">入力エラー</string>
+    <string name="err_title">エラー</string>
+    <string name="hospital_input_err_msg">病院IDを入力してください。</string>
+    <string name="patient_id_input_err_msg">患者番号を入力してください。</string>
+    <string name="patient_name_input_err_msg">患者名を入力してください。</string>
+
+    <string name="server_img_tab">Server-side Picture</string>
+    <string name="local_img_tab">Local-side Picture</string>
+    <string name="to_camera_btn">Medical Record-Taking</string>
+
+    <string name="receipt_info_intro">これから撮影するお薬手帳の情報を入力してください。</string>
+    <string name="hospital_title">病院名</string>
+    <string name="patient_id_title">患者名</string>
+    <string name="patient_name_title">患者名</string>
+    <string name="receipt_date_title">処方日付</string>
+    <string name="to_preview_btn">カメラ起動</string>
+
+
+    <string name="upload_btn">画像アップロード</string>
+    <string name="img_err_msg">お薬手帳の写真を撮影してください。</string>
+    <string name="upload_loading">アップロード中</string>
+    <string name="upload_err_msg">アップロードが失敗しました。\nもう一度試してください。</string>
+</resources>

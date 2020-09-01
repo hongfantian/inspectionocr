@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#840101</color>
+    <color name="white">#FFFFFF</color>
+    <color name = "grey">#e1e1e1</color>
+    <color name = "black">#000000</color>
+    <color name = "black_opa">#99000000</color>
+    <color name = "green">#a4d375</color>
+
+
+    <!--swipe down refresh animation color-->
+    <color name="colorOrange">#FF9900</color>
+    <color name="colorGreen">#009900</color>
+    <color name="colorBlue">#000099</color>
+    <color name="colorRed">#ff0015</color>
+
+    <color name="half_transfer">#80000000</color>
+    <color name="score">#A80FC901</color>
+    <color name="blue">#0048FF</color>
+    <color name="yellow">#FFE600</color>
+    <color name="bg_content">#CDCDD1</color>
+    <color name="bg_bottom">#C2C2EB</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+    <color name="bg_yellow">#C94646</color>
+    <color name="bg_green">#17FF00</color>
+    <color name="red2">#F925F2</color>
+    <color name="bg_sentence">#0C6F01</color>
+    <color name="bg_word">#9C7000</color>
+    <color name="bg_phrase">#961515</color>
+    <color name="C_SEPARATER_BCOLOR">#EDEDF0</color>
+    <color name="R_CONTENT_BCOLOR">#F0EFF4</color>
+    <color name="R_HEADER_BCOLOR">#4A4743</color>
+    <color name="R_HEADER_FCOLOR">#FFFFFF</color>
+    <color name="bg_audio">#06B197</color>
+    <color name="bg_main">#E1CEBB</color>
+    <color name="border_level">#A5A5A5</color>
+    <color name="title">#3E2B18</color>
+    <color name="date">#7B6956</color>
+    <color name="bg_score">#D2585858</color>
+    <color name="bg_btn">#3b5999</color>
+    <color name="bg_game_view">#F1F1F1</color>
+    <color name="bg_game_item_l">#DAEDF3</color>
+    <color name="bg_game_item_m">#DCD8C2</color>
+    <color name="bg_game_item_r">#FBE9D9</color>
+    <color name="bg_checkbox_item_selected">#a4d375</color>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    android:background="@xml/border"
+    android:onClick="changeInspectResult">
+    <!-- Column 1 -->
+    <TextView
+        android:id="@+id/txt_inspect_j_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:padding="10dip"
+        android:text="Column 1"
+        style="@style/text_large_normal"
+        />
+
+    <!-- Column 2 -->
+    <TextView
+        android:id="@+id/txt_inspect_e_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:padding="10dip"
+        android:text="Column 2"
+        android:visibility="gone"
+        style="@style/text_large_normal" />
+    <!-- Column 2 -->
+    <TextView
+        android:id="@+id/txt_inspect_value"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:padding="10dip"
+        android:text="0"
+        style="@style/text_large_normal" />
+    <TextView
+        android:id="@+id/txt_is_number"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:padding="10dip"
+        android:text="0"
+        android:visibility="gone"
+        style="@style/text_large_normal" />
+    <CheckBox android:id="@+id/ck_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="26dp"
+        android:height="26dp"
+        android:layout_marginRight="10dp"
+        android:button="@drawable/item_checkbox_selector"
+        android:text=""/>
+</TableRow>
